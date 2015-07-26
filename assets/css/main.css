@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    border-top: 2px solid #ecf0f1;
+    color: #564B4B;
+}
+
+/* clearfix hack */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* End of clearfix hack */
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.pull-left {
+    float: left;
+}
+
+
+
+
+
+
+
+.main-card .profile-img {
+    border-radius: 50%;
+    border: 2px solid #ecf0f1;
+}
+
+.main-card .card-info .fullname {
+    margin-top: 0;
+}
+
+.main-card .card-info .fullname,
+.main-card .card-info .position-title,
+.main-card .card-info .location-text
+
+{
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+
+.main-card .card-info .position-title {
+    font-weight: bold;
+}
+
+
+.main-card {
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.main-card .card-info {
+   margin: 0 20px 0;
+   font-weight: normal; 
+}
+
+
+/* About Section*/
+
+.section .section-title {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    text-transform: uppercase;
+    color: #EA983B;
+}
+
+.section .section-p {
+    padding: 10px;
+    font-weight: 100;
+    line-height: 1.5em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+
+/* End of About Section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
