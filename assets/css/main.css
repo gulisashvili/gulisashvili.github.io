@@ -3,7 +3,7 @@ body {
     padding: 0;
     /*font-family: 'Alegreya Sans', sans-serif;*/
     font-family: 'Lato', sans-serif;
-    border-top: 2px solid #ecf0f1;
+    border: 2px solid #ecf0f1;
     color: #564B4B;
 }
 
@@ -49,8 +49,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .label-warning {
-    background: #DC9311;
+    background: #f39c12;
+}
 
+.label-success {
+    background: #A6D085;
 }
 
 
@@ -83,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .main-card .profile-img {
     border-radius: 50%;
-    border: 2px solid #ecf0f1;
+    border: 3px solid #ecf0f1;
 }
 
 .main-card .card-info .fullname {
@@ -113,6 +116,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 
+
 .main-card .card-info {
    margin: 0 20px 0;
    font-weight: normal; 
@@ -120,10 +124,33 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
+
 .section {
     width: 70%;
     margin: 0 auto;
 }
+
+
+/* Contact Section */
+
+.contact-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact-list li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.contact-list li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+
+/* End of Contact Section*/
 
 
 
@@ -147,6 +174,26 @@ h1,h2,h3,h4,h5,h6 {
 
 
 /* End of About Section*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Job History Section */
@@ -173,7 +220,7 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     margin: 5px 0;
     text-decoration: none;
-    color: #9A5B2E;
+    color: #327E9A;
 }
 .job-time-range {
     /*text-decoration: underline;*/
@@ -182,11 +229,14 @@ h1,h2,h3,h4,h5,h6 {
 .skills-list {
     list-style: none;
     padding-left: 0;
+    margin: 0;
 }
 
 .skills-list li {
-    display: inline;
+    float: left;
     padding: 5px;
+    margin: 5px;
+    margin-left: 0;
     color: #DC9311;
     border: 2px solid #DC9311;
     background: #FFF;
@@ -199,6 +249,29 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
+/* media screens */
+
+@media screen and (max-width: 880px) {
+   .main-card {
+        width: 50%;
+    } 
+   .section {
+        width: 85%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .main-card {
+        width: 80%;
+    } 
+   .section {
+        width: 95%;
+   }
+
+}
+
+
+
+/* End of media screens*/
 
 
 
