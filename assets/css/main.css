@@ -13,6 +13,10 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0;
 }
 
+a {
+    color: #e4c1a1;
+}
+
 /* clearfix hack */
 
 .cf:before,
@@ -220,7 +224,7 @@ h1,h2,h3,h4,h5,h6 {
     display: block;
     margin: 5px 0;
     text-decoration: none;
-    color: #327E9A;
+    color: #e4c1a1;
 }
 .job-time-range {
     /*text-decoration: underline;*/
