@@ -1,10 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    /*font-family: 'Alegreya Sans', sans-serif;*/
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bitter', serif;
     border: 2px solid #ecf0f1;
     color: #564B4B;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
     color: #e4c1a1;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* clearfix hack */
@@ -123,7 +124,7 @@ a {
 
 .main-card .card-info {
    margin: 0 20px 0;
-   font-weight: normal; 
+   font-weight: normal;
 }
 
 
@@ -209,6 +210,10 @@ a {
     border-left: 3px solid #ecf0f1;
 }
 
+.linked-left-border {
+  border-left: 3px solid rgba(117, 173, 224, 0.57) ;
+}
+
 
 
 .history-card h3,
@@ -237,6 +242,7 @@ a {
 }
 
 .skills-list li {
+  font-family: 'Lato', sans-serif;
     float: left;
     padding: 5px;
     margin: 5px;
@@ -258,7 +264,7 @@ a {
 @media screen and (max-width: 960px) {
    .main-card {
         width: 50%;
-    } 
+    }
    .section {
         width: 85%;
    }
@@ -266,7 +272,7 @@ a {
 @media screen and (max-width: 600px) {
    .main-card {
         width: 80%;
-    } 
+    }
    .section {
         width: 95%;
    }
@@ -276,16 +282,3 @@ a {
 
 
 /* End of media screens*/
-
-
-
-
-
-
-
-
-
-
-
-
-
