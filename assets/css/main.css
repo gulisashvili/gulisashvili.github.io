@@ -255,7 +255,7 @@ a {
 
 /* media screens */
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
    .main-card {
         width: 50%;
     } 
