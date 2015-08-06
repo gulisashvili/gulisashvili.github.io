@@ -5,6 +5,7 @@ body {
     border: 2px solid #ecf0f1;
     color: #564B4B;
     -webkit-font-smoothing: antialiased;
+    text-transform: capitalize;
 }
 
 
