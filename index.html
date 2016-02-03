@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-    <title>Levan T. Gulisashvili's Personal Page</title>
+    <title>Levan Theodor's Personal Page</title>
 
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700'
       rel='stylesheet' type='text/css'>
@@ -62,7 +62,7 @@
     <h2 class="work-section-heading"> My Work </h2>
     <div class="container work-card-section">
 
-      <a href="#" class="work-card">
+      <a target="_blank" href="http://spacelab.team/" class="work-card">
         <img class="work-card-img" src="assets/img/spacelab.png" alt="spacelab poster" />
         <div class="work-desc">
           <h2 class="work-position">
@@ -72,7 +72,7 @@
         </div>
       </a> <!-- End of work-card -->
 
-      <a href="#" class="work-card">
+      <a target="_blank" href="http://adhero.io/" class="work-card">
         <img class="work-card-img" src="assets/img/adhero.png" alt="adhero poster" />
         <div class="work-desc">
           <h2 class="work-position">
@@ -82,11 +82,31 @@
         </div>
       </a> <!-- End of work-card -->
 
-      <a href="#" class="work-card">
+      <a target="_blank" href="https://www.netscan.co/" class="work-card">
         <img class="work-card-img" src="assets/img/netscan.png" alt="adhero poster" />
         <div class="work-desc">
           <h2 class="work-position">
             <p>Project: Netscan </p>
+            Position: Front-end Developer
+          </h2>
+        </div>
+      </a> <!-- End of work-card -->
+
+      <a target="_blank" href="http://slvsports.org/" class="work-card">
+        <img class="work-card-img" src="assets/img/slvsports.png" alt="slvsports poster" />
+        <div class="work-desc">
+          <h2 class="work-position">
+            <p>Project: Slvsports </p>
+            Position: Full-stack Developer
+          </h2>
+        </div>
+      </a> <!-- End of work-card -->
+
+      <a target="_blank" href="http://linkspace.io/" class="work-card">
+        <img class="work-card-img" src="assets/img/linkspace.png" alt=" linkspace poster" />
+        <div class="work-desc">
+          <h2 class="work-position">
+            <p>Project: Linkspace </p>
             Position: Front-end Developer
           </h2>
         </div>
@@ -102,25 +122,7 @@
         </div>
       </a> <!-- End of work-card -->
 
-      <a href="#" class="work-card">
-        <img class="work-card-img" src="assets/img/linkspace.png" alt=" linkspace poster" />
-        <div class="work-desc">
-          <h2 class="work-position">
-            <p>Project: Linkspace </p>
-            Position: Front-end Developer
-          </h2>
-        </div>
-      </a> <!-- End of work-card -->
 
-      <a href="#" class="work-card">
-        <img class="work-card-img" src="assets/img/slvsports.png" alt="slvsports poster" />
-        <div class="work-desc">
-          <h2 class="work-position">
-            <p>Project: Slvsports </p>
-            Position: Full-stack Developer
-          </h2>
-        </div>
-      </a> <!-- End of work-card -->
 
 
 
@@ -141,13 +143,14 @@
     </div> <!-- End of about-me-wrapper -->
 
     <div class="contact-section" id="contact">
-      <a href="#" class="btn btn-contact"> Say Hi </a>
+      <a href="mailto:levan.gulisashvili@gmail.com" class="btn btn-contact"> Say Hi </a>
       <div class="contacts">
         <ul class="contact-list">
-          <li><a href="#">twitter</a></li>
-          <li><a href="#">linkedin</a></li>
-          <li><a href="#">github</a></li>
-          <li><a href="#">upwork</a></li>
+          <li><a target="_blank" href="https://twitter.com/levanigls">twitter</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/levan-gulisashvili-29235482
+">linkedin</a></li>
+          <li><a target="_blank" href="https://github.com/gulisashvili">github</a></li>
+          <li><a target="_blank" href="https://www.upwork.com/freelancers/~01b84ef209aa7830be">upwork</a></li>
         </ul>
       </div>
 
@@ -180,7 +183,7 @@
     <script>
         $(function(){
             $(".heading").typed({
-                strings: ["Good Day<span class='typed-cursor'>|</span>", "I'm <span class='underlined'>Front-end</span> Developer<span class='typed-cursor'>|</span>"],
+                strings: ["Good Day, I'm Levan Th<span class='typed-cursor'>|</span>", "I'm <span class='underlined'>Front-end</span> Developer<span class='typed-cursor'>|</span>"],
                 typeSpeed: 24,
                 startDelay: 1000,
                 backSpeed: 50,
@@ -201,6 +204,13 @@
       e.preventDefault();
       scrollToAnchor('#my-work');
     })
+
+    $('.see-work-btn').click(function(e) {
+      e.preventDefault();
+      scrollToAnchor('#my-work');
+    })
+
+
 
     $('.to-contact').click(function(e) {
       e.preventDefault();
