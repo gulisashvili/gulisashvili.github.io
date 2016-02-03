@@ -217,7 +217,6 @@ nav {
 
 .nav .nav-list li a:hover {
   border-bottom: 2px solid white;
-
 }
 
 
@@ -244,17 +243,17 @@ nav {
 .see-work-btn {
   position: absolute;
   bottom: 15px;
-  color: #FFE608;
+  color: #FF9800;
   text-decoration: none;
-  border: 2px solid #FFE608 !important;
-  left: 50%;
+  border: 2px solid #FF9800 !important;
+  left: 12%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   font-weight: bold;
   text-transform: uppercase;
 }
 .see-work-btn:hover {
-  background: #FFE608 !important;
+  background: #FF9800 !important;
 }
 
 
@@ -270,14 +269,17 @@ nav {
 }
 
 .work-section-heading {
-  padding: 50px;
-  margin: 0;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+    padding: 50px 0 20px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    width: 30%;
+    border-bottom: 2px solid #FF9800;
+    margin-bottom: 50px;
 }
 
 .work-card-section {
@@ -475,6 +477,13 @@ nav {
 
 }
 
+
+@media screen and (max-width: 800px) {
+  .btn.see-work-btn {
+    left: 50%;
+  }
+}
+
 @media screen and (max-width: 540px) {
 
   .work-card-img {
@@ -508,11 +517,18 @@ nav {
   }
 
  .nav .nav-list li a {
-   color: #FFC107;
+   color: #FF9800;
+ }
+
+ .nav .nav-list li a:hover {
+   border-bottom: 2px solid #FF9800;
  }
 
  .btn-primary {
-   border: 2px solid #FFC107 !important;
+   border: 2px solid #FF9800 !important;
+ }
+ .btn-primary:hover {
+   background: #FF9800 !important;
  }
 
 
