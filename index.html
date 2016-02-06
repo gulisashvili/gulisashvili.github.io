@@ -92,12 +92,6 @@
         </div>
       </a> <!-- End of work-card -->
 
-
-
-
-
-
-
     </div> <!-- End of container -->
 
   </section>
@@ -110,7 +104,6 @@
       <div class="info">
         Hi everyone, i am web & mobile developer from georgia. I have more than 4 years of experience in web & mobile development. I love working on startups. My hobbies are music, science and playing tennis and football.
       </div>
-
 
     </div> <!-- End of about-me-wrapper -->
 
@@ -130,26 +123,20 @@
 
   </footer>
 
-
-
-
-
-
-
-
     <!-- google analytics script -->
-        <script>
+      <script>
 
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-65546557-1', 'auto');
-            ga('send', 'pageview');
+          ga('create', 'UA-65546557-1', 'auto');
+          ga('send', 'pageview');
 
-        </script>
+      </script>
     <!-- end of google analytics script -->
+
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="assets/js/vendor/typed.js"></script>
     <script>
@@ -167,35 +154,25 @@
 
     <script>
 
-    function scrollToAnchor(aid){
-      var aTag = $(aid);
-      $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-    }
+      function scrollToAnchor(aid){
+        var aTag = $(aid);
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+      }
 
-    $('.to-my-work, .see-work-btn').click(function(e) {
-      e.preventDefault();
-      scrollToAnchor('#my-work');
-    })
+      $('.to-my-work, .see-work-btn').click(function(e) {
+        e.preventDefault();
+        scrollToAnchor('#my-work');
+      })
 
-    // $('.see-work-btn').click(function(e) {
-    //   e.preventDefault();
-    //   scrollToAnchor('#my-work');
-    // })
+      $('.to-contact').click(function(e) {
+        e.preventDefault();
+        scrollToAnchor('#contact');
+      })
 
-
-
-    $('.to-contact').click(function(e) {
-      e.preventDefault();
-      scrollToAnchor('#contact');
-    })
-
-    $('.to-about-me').click(function(e) {
-      e.preventDefault();
-      scrollToAnchor('#about-me-section');
-    })
-
-
-
+      $('.to-about-me').click(function(e) {
+        e.preventDefault();
+        scrollToAnchor('#about-me-section');
+      })
     </script>
 </body>
 </html>
