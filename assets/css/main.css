@@ -111,10 +111,32 @@ header {
   height: 100vh;
   position: relative;
 }
-/*
-nav {
-  height: 10vh;
-}*/
+
+/* Blink Animation */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/* End of Blink Animation */
+
 
 .underlined {
   border-bottom: 3px solid #fff;
@@ -153,7 +175,6 @@ nav {
   text-align: center;
 
 }
-
 
 /* Nav Section */
 
@@ -219,11 +240,6 @@ nav {
   border-bottom: 2px solid white;
 }
 
-
-
-
-
-
 /* Btn Section */
 .btn {
   border: 2px solid #FFF !important;
@@ -256,9 +272,6 @@ nav {
   background: #FF9800 !important;
 }
 
-
-
-
 /* My Work Section */
 
 .my-work-section {
@@ -288,11 +301,6 @@ nav {
   justify-content: center;*/
 }
 
-
-
-
-
-
 .work-card {
   position: relative;
   padding: 48px;
@@ -304,7 +312,6 @@ nav {
   font-family: 'Open Sans', sans-serif;
 
 }
-
 
 .work-card:hover .work-desc,
 .work-card:focus .work-desc {
@@ -361,18 +368,12 @@ nav {
   height: 222px;
 }
 
-
-
-
-
-
 .footer {
   height: 400px;
   background: #FBFBFB;
   font-family: "Open Sans", arial, sans-serif;
 
 }
-
 
 .footer .about-me-wrapper {
   width: 50%;
@@ -382,16 +383,11 @@ nav {
   text-align: center;
 }
 
-
-
 .footer .about-me-wrapper .info {
   padding: 30px;
   font-size: 18px;
   letter-spacing: 1px;
 }
-
-
-
 
 .footer .about-me-wrapper .title {
   padding: 40px 0 40px;
@@ -408,7 +404,6 @@ nav {
   border: 2px solid #F1F1F1;
   padding: 5px;
 }
-
 
 .footer .info-section {
   color: #777;
@@ -440,7 +435,6 @@ nav {
   color: #fff !important;
 }
 
-
 .contact-list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -460,7 +454,6 @@ nav {
   font-family: Avenir-Medium;
   text-transform: uppercase;
 }
-
 
 @media screen and (max-width: 980px) {
 
@@ -535,7 +528,5 @@ nav {
     font-size: 25px;
     text-align: center;
   }
-
-
 
 }
