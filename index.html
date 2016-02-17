@@ -161,7 +161,9 @@
     <script>
 
     $(window).load(function() {
-      $('.preloader').fadeOut();
+      if ($(window).width() <= 810) { $('.preloader').remove() }
+
+      $('.preloader').fadeOut()
     })
 
       function scrollToAnchor(aid){
