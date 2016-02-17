@@ -146,25 +146,21 @@
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="assets/js/vendor/typed.js"></script>
     <script>
-        $(function(){
-            $(".heading").typed({
-                strings: ["Good Day, I'm Levan Th<span class='typed-cursor'>|</span>", "I'm <span class='underlined'>Front-end</span> Developer<span class='typed-cursor'>|</span>"],
-                typeSpeed: 24,
-                startDelay: 1000,
-                backSpeed: 50,
-                showCursor: false,
-                backDelay: 1200
-            });
-        });
-    </script>
 
-    <script>
+      $(window).load(function() {
+        if ($(window).width() <= 810) { $('.preloader').remove() }
 
-    $(window).load(function() {
-      if ($(window).width() <= 810) { $('.preloader').remove() }
+        $('.preloader').fadeOut()
 
-      $('.preloader').fadeOut()
-    })
+        $(".heading").typed({
+            strings: ["Good Day, I'm Levan Th<span class='typed-cursor'>|</span>", "I'm <span class='underlined'>Front-end</span> Developer<span class='typed-cursor'>|</span>"],
+            typeSpeed: 24,
+            startDelay: 1000,
+            backSpeed: 50,
+            showCursor: false,
+            backDelay: 1200
+        })
+      })
 
       function scrollToAnchor(aid){
         var aTag = $(aid);
