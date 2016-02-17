@@ -7,7 +7,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Avenir-Medium;
+    font-family: Avenir-Medium,'Open Sans', sans-serif;
     font-size: 15px;
     color: #FFFFFF;
     letter-spacing: 0.09px;
@@ -252,7 +252,7 @@ header {
   color: #FFF;
   font-weight: normal;
 
-  font-family: Avenir-Medium;
+  font-family: Avenir-Medium,'Open Sans', sans-serif;
   font-size: 30px;
   color: #FFFFFF;
   letter-spacing: 0.18px;
@@ -325,7 +325,7 @@ header {
 .nav .nav-list li {
   list-style: none;
   text-transform: uppercase;
-  font-family: Avenir-Medium, sans-serif;
+  font-family: Avenir-Medium, 'Open Sans', sans-serif;
   margin: 20px;
   padding: 10px 15px;
 }
@@ -558,7 +558,7 @@ header {
 .contact-list a {
   color: #9C9C9C;
   text-decoration: none;
-  font-family: Avenir-Medium;
+  font-family: Avenir-Medium,'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
