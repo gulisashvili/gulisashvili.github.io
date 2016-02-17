@@ -192,6 +192,20 @@ header {
   .nav {
     width: 100%;
   }
+
+  header .background-img {
+    background: rgb(96, 125, 139);
+  }
+
+  header .see-work-btn {
+    bottom: 30px;
+    color: #FFEB3B;
+    border: 2px solid #FFEB3B !important;
+  }
+  header .see-work-btn:hover {
+    background: #FFEB3B !important;
+  }
+
 }
 
 @media screen and (max-width: 530px) {
@@ -509,18 +523,18 @@ header {
   }
 
  .nav .nav-list li a {
-   color: #FF9800;
+   color: #FFEB3B;
  }
 
  .nav .nav-list li a:hover {
-   border-bottom: 2px solid #FF9800;
+   border-bottom: 2px solid #FFEB3B;
  }
 
  .btn-primary {
-   border: 2px solid #FF9800 !important;
+   border: 2px solid #FFEB3B !important;
  }
  .btn-primary:hover {
-   background: #FF9800 !important;
+   background: #FFEB3B !important;
  }
 
 
