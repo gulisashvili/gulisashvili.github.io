@@ -13,6 +13,7 @@ body {
     letter-spacing: 0.09px;
     line-height: 29px;
     color: #564B4B;
+    overflow: hidden;
 }
 
 
