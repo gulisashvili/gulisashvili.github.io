@@ -14,6 +14,7 @@ body {
     line-height: 29px;
     color: #564B4B;
     overflow: hidden;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -288,7 +289,7 @@ header {
   }
 
   header .see-work-btn {
-    bottom: 30px;
+    bottom: 4%;
     color: #FFEB3B;
     border: 2px solid #FFEB3B !important;
   }
