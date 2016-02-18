@@ -282,7 +282,7 @@ header {
 
 @media screen and (max-width: 998px) {
   .work-card-section .work-card .work-desc {
-    opacity: 0.75;
+    opacity: 0;
   }
 
   .work-card-section .work-position {
