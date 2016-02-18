@@ -132,7 +132,7 @@ header {
 .loader:before {
   width: 5.2em;
   height: 10.2em;
-  background: #607D8B;
+  background: #544171;
   border-radius: 10.2em 0 0 10.2em;
   top: -0.1em;
   left: -0.1em;
@@ -162,7 +162,7 @@ header {
 .loader:after {
   width: 5.2em;
   height: 10.2em;
-  background: #607D8B;
+  background: #544171;
   border-radius: 0 10.2em 10.2em 0;
   top: -0.1em;
   left: 5.1em;
@@ -200,7 +200,7 @@ header {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: #607D8B;
+  background-color: #544171;
   z-index: 100;
 }
 
@@ -316,7 +316,7 @@ header {
   }
 
   header .background-img {
-    background: rgb(96, 125, 139);
+    background: #544171;
   }
 
   .work-card-section {
@@ -328,12 +328,7 @@ header {
 
   header .see-work-btn {
     bottom: 4%;
-    color: #FFEB3B;
-    border: 2px solid #FFEB3B !important;
     font-weight: 200;
-  }
-  header .see-work-btn:hover {
-    background: #FFEB3B !important;
   }
 
   .my-work-section .work-section-heading {
@@ -373,9 +368,8 @@ header {
 
 .nav .nav-list li a {
   text-decoration: none;
-  color: white;
+  color: #DCEDF7;
   font-size: 16px;
-  color: #FFFFFF;
   letter-spacing: 0.09px;
   line-height: 29px;
   border-bottom: 2px solid transparent;
@@ -385,21 +379,20 @@ header {
 }
 
 .nav .nav-list li a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #DCEDF7;
 }
 
 /* Btn Section */
 .btn {
-  border: 2px solid #FFF !important;
+  border: 2px solid #DCEDF7 !important;
   padding: 15px 25px !important;
   -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
 
 .btn:hover {
-  background: white;
+  background: #DCEDF7;
   color: #3B3B3B !important;
-  /*opacity: 0.8;*/
 }
 
 /* See My Work Btn */
@@ -407,9 +400,9 @@ header {
 .see-work-btn {
   position: absolute;
   bottom: 15px;
-  color: #FF9800;
+  color:#DCEDF7;
   text-decoration: none;
-  border: 2px solid #FF9800 !important;
+  border: 2px solid #DCEDF7 !important;
   left: 12%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -417,7 +410,7 @@ header {
   text-transform: uppercase;
 }
 .see-work-btn:hover {
-  background: #FF9800 !important;
+  background: #DCEDF7 !important;
 }
 
 /* My Work Section */
@@ -572,14 +565,14 @@ header {
 }
 
 .btn-contact {
-  color: #FF9800;
-  border: 2px solid #FF9800 !important;
+  color: #12A8D1;
+  border: 2px solid #12A8D1 !important;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
 }
 .btn-contact:hover {
-  background: #FF9800;
+  background: #12A8D1;
   color: #fff !important;
 }
 
@@ -655,22 +648,6 @@ header {
                 -ms-grid-row-align: center;
             align-items: center;
   }
-
- .nav .nav-list li a {
-   color: #FFEB3B;
- }
-
- .nav .nav-list li a:hover {
-   border-bottom: 2px solid #FFEB3B;
- }
-
- .btn-primary {
-   border: 2px solid #FFEB3B !important;
- }
- .btn-primary:hover {
-   background: #FFEB3B !important;
- }
-
 
   .heading {
     font-size: 25px;
