@@ -4,6 +4,11 @@
 }
 
 
+.visible-xs {
+  display: none;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -276,6 +281,16 @@ header {
 }
 
 @media screen and (max-width: 810px) {
+
+  .visible-xs {
+    display: block;
+  }
+
+
+  .hidden-xs {
+    display: none !important;
+  }
+
   .preloader {
     display: none;
   }
@@ -288,10 +303,18 @@ header {
     background: rgb(96, 125, 139);
   }
 
+  .work-card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   header .see-work-btn {
     bottom: 4%;
     color: #FFEB3B;
     border: 2px solid #FFEB3B !important;
+    font-weight: 200;
   }
   header .see-work-btn:hover {
     background: #FFEB3B !important;
