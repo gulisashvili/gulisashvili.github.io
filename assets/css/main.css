@@ -280,11 +280,27 @@ header {
   }
 }
 
+@media screen and (max-width: 998px) {
+  .work-card-section .work-card .work-desc {
+    opacity: 0.75;
+  }
+
+  .work-card-section .work-position {
+    opacity: 1;
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 810px) {
 
   .visible-xs {
     display: block;
   }
+
+
 
 
   .hidden-xs {
