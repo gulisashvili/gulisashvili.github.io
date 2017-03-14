@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'Avenir', sans-serif;
-    src: url(../fonts/Avenir.ttf);
+    src: url(../fonts/Avenir.ttf),
+        url(../fonts/Avenir.otf);
 }
 
 .visible-xs {
