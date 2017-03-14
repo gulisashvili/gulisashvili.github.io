@@ -320,7 +320,8 @@ header {
   }
 
   header .background-img {
-    background: #544171;
+    background-image: -webkit-linear-gradient(224deg, #534C90 0%, #554A8E 8%, #623D7B 69%, #633C7A 74%, #653A77 84%, #693772 100%);background-image: linear-gradient(-134deg, #534C90 0%, #554A8E 8%, #623D7B 69%, #633C7A 74%, #653A77 84%, #693772 100%);
+    background-image: linear-gradient(-134deg, #534C90 0%, #554A8E 8%, #623D7B 69%, #633C7A 74%, #653A77 84%, #693772 100%);
   }
 
   .work-card-section {
