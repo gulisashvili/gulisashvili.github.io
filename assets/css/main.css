@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-
 }
 
 @font-face {
@@ -505,7 +504,6 @@ header {
   opacity: 1;
 
 }
-
 
 .work-card-img {
   width: 400px;
