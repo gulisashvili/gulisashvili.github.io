@@ -8,7 +8,6 @@
   display: none;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -525,9 +524,9 @@ header {
 }
 
 .footer .about-me-wrapper .info {
-  padding: 30px;
-  font-size: 18px;
-  letter-spacing: 1px;
+  padding: 40px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
 }
 
 .footer .about-me-wrapper .title {
@@ -544,7 +543,11 @@ header {
   width: 120px;
   border: 2px solid #F1F1F1;
   padding: 5px;
+  transition: all 300ms ease-in-out;
 }
+  .profile-img:hover {
+    padding: 0;
+  }
 
 .footer .info-section {
   color: #777;
