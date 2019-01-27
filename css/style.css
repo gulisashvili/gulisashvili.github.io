@@ -109,6 +109,7 @@ a:hover {
 
 .skills_list{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills_list_item {
@@ -133,5 +134,22 @@ a:hover {
 
 .exp_box_right p {
   font-weight: 100;
+}
+
+
+@media screen and (max-width: 970px) {
+  .box_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box_left {
+    flex-basis: 100%;
+  }
+  
+  .box_right {
+    margin-top: 50px;
+    flex-basis: 100%;
+  }
 }
 
