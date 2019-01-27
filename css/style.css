@@ -44,6 +44,7 @@ a:hover {
   margin: 5px 0;
   text-transform: uppercase;
   font-family: 'Eczar', serif;
+  font-size: 45px;
 }
 
 /* End of General Styles */
@@ -84,7 +85,7 @@ a:hover {
 }
 
 .content_section {
-  padding: 50px;
+  padding: 30px 50px;
   position: relative;
 }
 
@@ -104,5 +105,33 @@ a:hover {
 
 .content_body {
   font-size: 13px;
+}
+
+.skills_list{
+  display: flex;
+}
+
+.skills_list_item {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-right: 5px;
+}
+
+.exp_box {
+  display: flex;
+  font-weight: bold;
+}
+
+.exp_box_left {
+  flex-basis: 30%;
+}
+
+.exp_box_right {
+  flex-basis: 70%;
+}
+
+.exp_box_right p {
+  font-weight: 100;
 }
 
