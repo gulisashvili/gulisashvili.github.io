@@ -34,7 +34,7 @@ a:hover {
   width: 120px;
   height: auto;
   border-radius: 50%;
-  border: 4px solid #3e3e3e;
+  border: 4px solid #487eb0;
 }
 
 .profile_title {
@@ -42,12 +42,13 @@ a:hover {
   text-transform: uppercase;
   font-family: 'Eczar', serif;
   font-size: 45px;
+  line-height: 1;
 }
 
 /* End of General Styles */
 
 .main_wrapper {
-  border: 4px solid #3e3e3e;
+  border: 4px solid #487eb0;
   background: #ededed;
 }
 
@@ -64,7 +65,7 @@ a:hover {
 
 .box_right {
   flex-basis: 65%;
-  border-left: 4px solid #3e3e3e;
+  border-left: 4px solid #487eb0;
 }
 
 .box_left_middle {
@@ -97,7 +98,7 @@ a:hover {
   content: '';
   width: 20px;
   height: 20px;
-  background: #af6d92;
+  background: #487eb0;
   border-radius: 50%;
   left: -12px;
 }
