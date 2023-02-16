@@ -161,6 +161,7 @@ a:hover {
 .exp_box {
   display: flex;
   font-weight: bold;
+  margin-bottom: 25px;
 }
 
 .exp_box_left {
@@ -170,6 +171,13 @@ a:hover {
 .exp_box_right {
   flex-basis: 70%;
 }
+
+.exp_box_right li {
+  list-style-type:disc;
+  font-weight: 100;
+
+}
+
 
 .exp_box_right p {
   font-weight: 100;
